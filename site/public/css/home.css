@@ -1,0 +1,492 @@
+/* CSS - Página principal */
+
+/* --------------- SESSÃO INÍCIO -----------------*/
+.ConteudoDeskTop .sessao1-inicio {
+    width: 100%;
+    margin-top: 150px;
+    background-image: url(../assets/gradiente_inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sessao1-inicio .content {
+    flex-direction: column;
+}
+
+.sessao1-inicio h1 {
+    color: #0F240A;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.sessao1-inicio h3 {
+    color: #0F240A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.sessao1-inicio .img_inicio {
+    display: flex;
+    justify-content: right;
+    z-index: 0;
+}
+
+.sessao1-inicio .texto_inicio {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.sessao1-inicio img {
+    width: 1100px;
+    margin-right: -100px;
+    margin-top: -200px;
+    z-index: 0;
+}
+
+
+/* --------------- SESSÃO PROBLEMA ---------------*/
+.sessao2-problema {
+    padding: 100px 0px;
+}
+
+.sessao2-problema .content {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sessao2-problema .box-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 40px;
+}
+
+.texto-problema {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.img-problema {
+    display: flex;
+}
+
+.circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 500px;
+    background: #46B17E;
+}
+
+.sessao2-problema img {
+    align-self: center;
+    margin-left: -30px;
+    width: 564.778px;
+    height: 557.747px;
+    transform: rotate(8.898deg);
+}
+
+
+/* --------------- SESSÃO SOLUÇÃO ---------------*/
+
+.sessao3-solucao {
+    padding: 100px 0px;
+    background: linear-gradient(270deg, #0F3324 0%, #108456 63.54%);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.sessao3-solucao .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 20px 0px;
+
+}
+
+.img-solucao {
+    width: 40%;
+}
+
+.sessao3-solucao img {
+    width: 550px;
+    margin-left: 60px;
+}
+
+.sessao3-solucao .circulo {
+    width: 480px;
+    height: 480px;
+    flex-shrink: 0;
+    fill: rgba(173, 255, 226, 0.62);
+
+}
+
+.texto-solucao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto-solucao h1 {
+    color: white;
+}
+
+.texto-solucao p {
+    color: white;
+}
+
+/* --------------- SESSÃO BENEFÍCIOS ---------------*/
+.sessao4-beneficios {
+    padding: 100px 0px;
+}
+
+.sessao4-beneficios h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sessao4-beneficios .content {
+    flex-direction: column;
+}
+
+.sessao4-beneficios .box-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.sessao4-beneficios .card {
+    width: 350px;
+    height: 200px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 9px 12px 37px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.6s;
+
+}
+
+.card:hover{
+    transform: translateY(-7px);        
+}
+
+.card:active {
+    transform: translateY(-1px);
+}
+
+
+
+.sessao4-beneficios .card img {
+    width: 50px;
+}
+
+.sessao4-beneficios .card p {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sessao4-beneficios .card h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* --------------- SESSÃO RECURSOS---------------*/
+.sessao5-recursos {
+    padding: 100px 0px;
+    background: linear-gradient(270deg, #0F3324 0%, #108456 63.54%);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sessao5-recursos .content {
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sessao5-recursos h1 {
+    text-align: center;
+    color: white;
+}
+
+.sessao5-recursos .box-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-recursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.sessao5-recursos .elipse {
+    width: 180px;
+    height: 180px;
+    background-color: #FBF8F8;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.card-recursos img {
+    width: 140px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.card-recursos h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* --------------- SESSÃO SOBRE NÓS---------------*/
+.sessao6-sobrenos {
+    padding: 100px 0px;
+}
+
+.sessao6-sobrenos .content{
+    flex-direction: column;
+}
+
+.conteudo{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.pt2{
+    flex-direction: row-reverse;
+}
+
+.pt1 .img-sobrenos  img{
+    width: 300px;
+}
+
+.img-sobrenos img{
+    width: 420px;
+}
+
+.texto-sobrenos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* --------------- SESSÃO FINAL---------------*/
+.sessao7-final{
+    padding: 100px 0px;
+    background: linear-gradient(270deg, #0F3324 0%, #108456 63.54%);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sessao7-final .content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sessao7-final h1{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+/* --------------- SESSÃO INÍCIO -----------------*/
+    .sessao1-inicio {
+        position: relative;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .sessao1-inicio .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+    }
+    
+    .sessao1-inicio h1 {
+        font-size: 28px;
+    }
+    
+    .sessao1-inicio h3 {
+        font-size: 16px;
+    }
+
+    .sessao1-inicio .content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .sessao1-inicio .texto_inicio {
+        position: relative;
+        width: 100%;
+        height: 50%;
+    }
+
+    .sessao1-inicio .img_inicio {
+        position: relative;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    
+    .sessao1-inicio img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin-top: 0px;
+    }
+
+/* --------------- SESSÃO PROBLEMA ---------------*/
+    .sessao2-problema {
+        position: relative;
+        width: 100%;
+        height: 140vh;
+    }
+
+    .sessao2-problema .container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sessao2-problema .content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .sessao2-problema .content .titulo{
+        width: 100%;
+        height: 20%;
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .sessao2-problema .content .box-conteudo {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 20px;
+    }
+
+    .sessao2-problema .content .box-conteudo .texto-problema {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 60%;
+    }
+
+    .sessao2-problema .content .box-conteudo .texto-problema p {
+        font-size: 16px;
+    }
+
+    .sessao2-problema .content .box-conteudo .img-problema {
+        position: relative;
+        width: 100%;
+        height: 40%;
+        margin: 0;
+    }
+
+    .circulo {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: #46B17E;
+        margin-left: 50%;
+
+    }
+
+    .sessao2-problema img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    
+}
