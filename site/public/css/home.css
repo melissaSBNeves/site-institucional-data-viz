@@ -350,12 +350,15 @@
 
 
 @media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
     
 /* --------------- SESSÃO INÍCIO -----------------*/
     .sessao1-inicio {
         position: relative;
         width: 100%;
-        height: 80vh;
+        height: 688px;
     }
 
     .sessao1-inicio .container {
@@ -410,7 +413,8 @@
     .sessao2-problema {
         position: relative;
         width: 100%;
-        height: 140vh;
+        height: 1088px;
+
     }
 
     .sessao2-problema .container {
@@ -432,7 +436,7 @@
 
     .sessao2-problema .content .titulo{
         width: 100%;
-        height: 20%;
+        height: 18%;
         font-size: 20px;
         padding: 0 20px;
     }
@@ -488,5 +492,185 @@
         object-fit: contain;
     }
 
+    /* --------------- SESSÃO SOLUÇÃO ---------------*/
+
+    .sessao3-solucao {
+        padding: 20px 0px;
+        position: relative;
+        height: 988px;
+    }
+
+    .sessao3-solucao .content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px 0px;
+
+    }
+
+    .img-solucao {
+        position: relative;
+        width: 100%;
+        height: 280px;
+    }
+
+    .sessao3-solucao img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin-left: 20px;
+    }
+
+    .sessao3-solucao .circulo {
+        width: 280px;
+        height: 280px;
+        position: relative;
+
+    }
+
+    .texto-solucao h1 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .texto-solucao p {
+        font-size: 16px;
+        color: white;
+    }
+
+    /* --------------- SESSÃO BENEFÍCIOS ---------------*/
+    .sessao4-beneficios {
+        padding: 20px 0px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sessao4-beneficios .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sessao4-beneficios .box-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    /* --------------- SESSÃO RECURSOS---------------*/
+    .sessao5-recursos {
+        position: relative;
+        width: 100%;
+        height: 1088px;
+        padding: 20px 0px;
+    }
+
+    .sessao5-recursos .content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .sessao5-recursos h1 {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .sessao5-recursos .box-conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .sessao5-recursos .card {
+        margin-bottom: 10px;
+    }
+
+    .card-recursos h3 {
+        font-size: 20px;
+    }
+
+    /* --------------- SESSÃO SOBRE NÓS---------------*/
+    .sessao6-sobrenos {
+        position: relative;
+        width: 100%;
+        height: 1088px;
+        padding: 20px 0px;
+    }
+
+    .sessao6-sobrenos .content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .sessao6-sobrenos .titulo {
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+
+    .conteudo{
+        position: relative;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+
+    .img-sobrenos {
+        position: relative;
+        width: 30%;
+        height: 100%;
+    }
+
+
+    .img-sobrenos img{
+        position: relative;
+        width: 128px;
+        height: 128px;
+        object-fit: contain;
+    }
+
+    .texto-sobrenos{
+        position: relative;
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .texto-sobrenos p {
+        font-size: 16px;
+        text-align: left;
+    } 
+
+    /* --------------- SESSÃO FINAL---------------*/
+
+    .sessao7-final h1{
+
+        font-size: 20px;
+    }
     
 }
